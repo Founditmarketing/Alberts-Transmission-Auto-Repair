@@ -16,7 +16,14 @@ export default function HomePage() {
       <Hero />
       <About />
       <ServiceCards />
-      <Gallery />
+      <Gallery showTitle={true} limit={6} images={[
+        "/at12.jpg",
+        "/at13.jpg",
+        "/at15.jpg",
+        "/at21.jpg",
+        "/at22.jpg",
+        "/at10.jpg"
+      ]} />
       <Reviews />
       <MaintenanceForm />
     </motion.div>

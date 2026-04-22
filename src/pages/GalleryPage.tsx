@@ -10,27 +10,12 @@ export default function GalleryPage() {
       exit={{ opacity: 0 }}
       className="pt-24 min-h-screen bg-slate-950"
     >
-      <div className="container mx-auto px-6 py-20 text-center">
+      <div className="container mx-auto px-6 pt-10 pb-4 text-center">
         <span className="text-brand-primary font-mono text-sm uppercase tracking-widest mb-4 block">Visual Evidence</span>
-        <h1 className="text-5xl md:text-7xl font-display font-bold text-white mb-8">Engineering Portfolio</h1>
-        <p className="text-xl text-slate-400 font-light max-w-3xl mx-auto mb-16Leading-relaxed">
-          The difference between a "fix" and "authority engineering" is visible. Explore our gallery of transmission rebuilds, custom masteries, and standard repair successes.
+        <h1 className="text-5xl md:text-7xl font-display font-bold text-white mb-6">Engineering Portfolio</h1>
+        <p className="text-xl text-slate-400 font-light max-w-3xl mx-auto mb-8 leading-relaxed">
+          Explore our gallery of transmission rebuilds, custom masteries, and standard repair successes.
         </p>
-
-        <div className="flex flex-wrap justify-center gap-6 mb-20">
-          <div className="flex items-center gap-2 px-6 py-3 bg-slate-900 border border-slate-800 rounded-full text-white font-mono text-xs uppercase tracking-widest cursor-pointer hover:border-brand-primary transition-colors">
-            <Cog className="w-4 h-4" />
-            Transmissions
-          </div>
-          <div className="flex items-center gap-2 px-6 py-3 bg-slate-900 border border-slate-800 rounded-full text-white font-mono text-xs uppercase tracking-widest cursor-pointer hover:border-brand-primary transition-colors">
-            <Hammer className="w-4 h-4" />
-            Engine Work
-          </div>
-          <div className="flex items-center gap-2 px-6 py-3 bg-slate-900 border border-slate-800 rounded-full text-white font-mono text-xs uppercase tracking-widest cursor-pointer hover:border-brand-primary transition-colors">
-            <Camera className="w-4 h-4" />
-            The Shop
-          </div>
-        </div>
       </div>
       
       <div className="bg-slate-900 py-12">

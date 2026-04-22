@@ -6,9 +6,13 @@ export default function ServiceCards() {
   return (
     <section id="services" className="py-24 bg-slate-950 relative overflow-hidden">
       {/* Background Image Layer */}
-      <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1542282088-fe8426682b8f?auto=format&fit=crop&q=80')] bg-cover bg-fixed bg-center opacity-10 grayscale" />
-        <div className="absolute inset-0 bg-gradient-to-b from-slate-950 via-slate-950/80 to-slate-950" />
+      <div className="absolute inset-0 z-0 bg-slate-950">
+        <div 
+          className="absolute inset-0 bg-cover bg-fixed bg-center opacity-40 mix-blend-luminosity" 
+          style={{ backgroundImage: "url('/transmission_bg.png')" }}
+        />
+        {/* Soft overlay gradient to ensure text readability while keeping the image highly visible */}
+        <div className="absolute inset-0 bg-gradient-to-b from-slate-950/90 via-slate-950/40 to-slate-950/90" />
       </div>
 
       <div className="container mx-auto px-6 relative z-10">

@@ -60,9 +60,9 @@ export default function AboutPage() {
             <div className="relative overflow-hidden rounded-[2.5rem] border border-slate-800 shadow-2xl">
               <div className="absolute inset-0 bg-brand-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
               <img 
-                src="https://images.unsplash.com/photo-1530046339160-ce3e5b0c7a2f?auto=format&fit=crop&q=80" 
-                alt="Alberts Shop Interior" 
-                className="w-full grayscale group-hover:grayscale-0 transition-all duration-1000 scale-105 group-hover:scale-100"
+                src="/at26.jpg" 
+                alt="Alberts Shop Mechanics" 
+                className="w-full transition-all duration-1000 scale-105 group-hover:scale-100"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-slate-950 to-transparent">

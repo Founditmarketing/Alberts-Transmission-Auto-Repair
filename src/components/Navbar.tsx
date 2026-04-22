@@ -46,8 +46,8 @@ export default function Navbar() {
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-slate-950/90 backdrop-blur-md py-4 border-b border-slate-800' : 'bg-transparent py-6'}`}>
       <div className="container mx-auto px-6 flex justify-between items-center">
-        <Link to="/" className="text-2xl font-display font-bold text-white tracking-tighter">
-          ALBERTS<span className="text-brand-primary">.</span>
+        <Link to="/" className="flex items-center">
+          <img src="/at%20logo.png" alt="Albert's Transmission Logo" className="h-12 md:h-16 w-auto object-contain" />
         </Link>
 
         {/* Desktop Menu */}
@@ -98,8 +98,8 @@ export default function Navbar() {
               )}
             </div>
           ))}
-          <Link to="/contact" className="bg-brand-primary px-6 py-2 rounded-md text-white font-bold text-sm uppercase tracking-widest hover:bg-orange-500 transition-colors">
-            Book Now
+          <Link to="/contact#contact" className="bg-brand-primary px-6 py-2 rounded-md text-white font-bold text-sm uppercase tracking-widest hover:bg-orange-500 transition-colors">
+            Request Maintenance
           </Link>
         </div>
 
@@ -146,8 +146,8 @@ export default function Navbar() {
                   )}
                 </div>
               ))}
-              <Link to="/contact" className="bg-brand-primary w-full py-4 rounded-md text-white font-bold text-center uppercase tracking-widest">
-                Book Now
+              <Link to="/contact#contact" className="bg-brand-primary w-full py-4 rounded-md text-white font-bold text-center uppercase tracking-widest">
+                Request Maintenance
               </Link>
             </div>
           </motion.div>

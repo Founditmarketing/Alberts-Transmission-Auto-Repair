@@ -8,14 +8,14 @@ export default function Footer() {
         <div className="grid lg:grid-cols-4 gap-12 mb-20">
           
           <div className="lg:col-span-2 space-y-6">
-            <Link to="/" className="text-3xl font-display font-bold text-white tracking-tighter">
-              ALBERTS<span className="text-brand-primary">.</span>
+            <Link to="/" className="inline-block">
+              <img src="/at%20logo.png" alt="Albert's Transmission Logo" className="h-16 md:h-20 w-auto object-contain" />
             </Link>
             <p className="text-slate-400 font-light max-w-md leading-relaxed">
               Serving Sulphur Springs with integrity since we opened our doors. We specialize in precision engineering for all vehicle makes and models, combining old-fashioned trust with state-of-the-art diagnostic technology.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="p-3 bg-slate-900 rounded-lg hover:bg-orange-600 transition-colors group cursor-pointer" aria-label="Facebook">
+              <a href="https://www.facebook.com/AlbertsTransmissionAutoRepair" target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-900 rounded-lg hover:bg-orange-600 transition-colors group cursor-pointer" aria-label="Facebook">
                 <Facebook className="w-6 h-6 text-slate-300 group-hover:text-white" />
               </a>
               <div className="flex items-center gap-2 px-4 py-2 bg-slate-900 rounded-lg border border-slate-800">
