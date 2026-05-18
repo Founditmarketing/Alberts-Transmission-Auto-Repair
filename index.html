@@ -3,11 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Albert’s Transmission & Auto Repair | Sulphur Springs, TX</title>
+    <title>Albert's Transmission &amp; Auto Repair | Sulphur Springs, TX</title>
+
+    <!-- SEO Meta -->
+    <meta name="description" content="Expert transmission repair and auto services in Sulphur Springs, TX. Professional diagnostics, rebuilds, and maintenance for all vehicle types. Call today for reliable service." />
+    <link rel="canonical" href="https://alberts-transmission-auto-repair.vercel.app/" />
+    <link rel="preconnect" href="https://alberts-transmission-auto-repair.vercel.app" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Albert's Transmission &amp; Auto Repair | Sulphur Springs, TX" />
+    <meta property="og:description" content="Expert transmission repair and auto services in Sulphur Springs, TX. Family-owned heritage with state-of-the-art precision. Call (903) 243-4784." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://alberts-transmission-auto-repair.vercel.app/" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "AutoRepair",
+            "name": "Albert's Transmission & Auto Repair",
+            "url": "https://alberts-transmission-auto-repair.vercel.app",
+            "telephone": "(903) 243-4784",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "534 Industrial Dr W",
+              "addressLocality": "Sulphur Springs",
+              "addressRegion": "TX",
+              "postalCode": "75482"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": "33.1387",
+              "longitude": "-95.6011"
+            },
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+              "opens": "08:00",
+              "closes": "17:00"
+            },
+            "sameAs": [
+              "https://www.facebook.com/AlbertsTransmissionAutoRepair"
+            ]
+          },
+          {
+            "@type": "SpeakableSpecification",
+            "cssSelector": ["h1", ".intro-text"]
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <!-- AI Crawl Context (pre-hydration, parsed by LLMs and non-JS crawlers) -->
+    <div id="llm-context" style="display:none;" aria-hidden="true">
+      Albert's Transmission &amp; Auto Repair — Expert transmission repair, rebuilds, and general auto services in Sulphur Springs, TX. Family-owned heritage with state-of-the-art diagnostic precision. Serving domestic and foreign vehicles of all makes and models. Address: 534 Industrial Dr W, Sulphur Springs, TX 75482. Phone: (903) 243-4784.
+    </div>
+
+    <div id="root"><h1>Albert's Transmission &amp; Auto Repair - Sulphur Springs, TX</h1></div>
+    <script type="module" src="/src/main.tsx" defer></script>
   </body>
 </html>
-

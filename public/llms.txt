@@ -1,0 +1,47 @@
+# Albert's Transmission & Auto Repair
+> Auto repair and transmission services, Sulphur Springs, TX
+
+Professional automotive repair shop specializing in transmission services and general auto repair in Sulphur Springs, Texas. Family-owned heritage with state-of-the-art precision for all vehicle makes and models.
+
+## Services
+- Transmission repair and rebuilds
+- Auto diagnostics
+- General automotive repair
+- Manual and automatic gearbox service
+- Preventive maintenance
+
+## Service Area
+Sulphur Springs, TX and surrounding areas including Hopkins County, Texas
+
+## Contact
+- Phone: (903) 243-4784
+- Address: 534 Industrial Dr W, Sulphur Springs, TX 75482
+- Website: https://alberts-transmission-auto-repair.vercel.app
+
+## Key Pages
+- Home Page(/): Main landing page for Albert's Transmission & Auto Repair
+- Transmission Services(/services/transmission): Transmission repair and rebuild services
+- Maintenance(/services/maintenance): General auto maintenance services
+- About(/about): Family history and shop background
+- Gallery(/gallery): Shop and work photos
+- Contact(/contact): Schedule an appointment
+
+## About
+Albert's Transmission & Auto Repair provides professional automotive services in Sulphur Springs, Texas, with deep expertise in transmission repair and general auto maintenance. Family-owned and operated, combining old-fashioned trust with state-of-the-art diagnostic technology. Fully licensed and insured, serving domestic and foreign vehicles of all makes and models.
+
+## Frequently Asked Questions
+
+**What transmission services do you offer?**
+We provide complete transmission repair, rebuilds, diagnostics, and maintenance for all vehicle types — both manual and automatic.
+
+**Do you work on all car makes and models?**
+Yes, we service domestic and foreign vehicles of all makes and models.
+
+**How long do transmission repairs typically take?**
+Repair time varies depending on the issue, from same-day service for minor repairs to several days for complete rebuilds.
+
+**Do you offer warranties on your work?**
+Yes, we stand behind our work with comprehensive warranties on parts and labor.
+
+**Can you diagnose transmission problems?**
+Absolutely, we use advanced diagnostic equipment to accurately identify transmission issues.
