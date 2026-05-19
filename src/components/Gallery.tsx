@@ -3,15 +3,15 @@ import { motion, AnimatePresence } from "motion/react";
 import { X } from "lucide-react";
 
 const defaultImages = [
-  "/at8.jpg",
-  "/at9.jpg",
-  "/at20.jpg",
-  "/at2.jpg",
-  "/at17.jpg",
-  "/at19.jpg",
-  "/at3.jpg",
-  "/at1.jpg",
-  "/at11.jpg"
+  "/at8.webp",
+  "/at9.webp",
+  "/at20.webp",
+  "/at2.webp",
+  "/at17.webp",
+  "/at19.webp",
+  "/at3.webp",
+  "/at1.webp",
+  "/at11.webp"
 ];
 
 export default function Gallery({ images = defaultImages, limit, showTitle = false }: { images?: string[], limit?: number, showTitle?: boolean }) {
@@ -47,6 +47,7 @@ export default function Gallery({ images = defaultImages, limit, showTitle = fal
               <img 
                 src={img} 
                 alt={`Project ${i}`} 
+                loading="lazy"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover group-hover:scale-110 transition-all duration-700"
               />

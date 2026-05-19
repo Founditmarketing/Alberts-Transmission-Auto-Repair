@@ -9,7 +9,7 @@ export default function Footer() {
           
           <div className="lg:col-span-2 space-y-6">
             <Link to="/" className="inline-block">
-              <img src="/at%20logo.png" alt="Albert's Transmission Logo" className="h-16 md:h-20 w-auto object-contain" />
+              <img src="/at-logo.webp" alt="Albert's Transmission Logo" className="h-16 md:h-20 w-auto object-contain" width="240" height="80" />
             </Link>
             <p className="text-slate-400 font-light max-w-md leading-relaxed">
               Serving Sulphur Springs with integrity since we opened our doors. We specialize in precision engineering for all vehicle makes and models, combining old-fashioned trust with state-of-the-art diagnostic technology.
@@ -64,9 +64,12 @@ export default function Footer() {
              <Link to="/contact" className="text-slate-600 hover:text-slate-400 transition-colors text-xs flex items-center gap-1 cursor-pointer">
                Review Privacy Shield <ExternalLink size={12} />
              </Link>
-             <div className="flex items-center gap-2">
-               <ShieldCheck size={16} className="text-brand-primary" />
-               <span className="text-[10px] text-slate-600 uppercase tracking-tighter">Certified 75482 Tech Hub</span>
+             <div className="flex items-center gap-4">
+               <div className="flex items-center gap-2">
+                 <ShieldCheck size={16} className="text-brand-primary" />
+                 <span className="text-[10px] text-slate-600 uppercase tracking-tighter">Certified 75482 Tech Hub</span>
+               </div>
+               <span className="text-[10px] text-slate-600 uppercase tracking-tighter">Licensed &amp; Insured</span>
              </div>
           </div>
         </div>

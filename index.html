@@ -6,7 +6,8 @@
     <title>Albert's Transmission &amp; Auto Repair | Sulphur Springs, TX</title>
 
     <!-- SEO Meta -->
-    <meta name="description" content="Expert transmission repair and auto services in Sulphur Springs, TX. Professional diagnostics, rebuilds, and maintenance for all vehicle types. Call today for reliable service." />
+    <meta name="description" content="Expert transmission repair and auto services in Sulphur Springs, TX. Professional diagnostics, rebuilds, and maintenance. Call (903) 243-4784 today." />
+    <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://alberts-transmission-auto-repair.vercel.app/" />
     <link rel="preconnect" href="https://alberts-transmission-auto-repair.vercel.app" />
 
@@ -15,9 +16,16 @@
     <meta property="og:description" content="Expert transmission repair and auto services in Sulphur Springs, TX. Family-owned heritage with state-of-the-art precision. Call (903) 243-4784." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://alberts-transmission-auto-repair.vercel.app/" />
+    <meta property="og:image" content="https://alberts-transmission-auto-repair.vercel.app/at-logo.webp" />
+    <meta property="og:site_name" content="Albert's Transmission &amp; Auto Repair" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Albert's Transmission &amp; Auto Repair | Sulphur Springs, TX" />
+    <meta name="twitter:description" content="Expert transmission repair and auto services in Sulphur Springs, TX. Professional diagnostics, rebuilds, and maintenance. Call (903) 243-4784 today." />
+    <meta name="twitter:image" content="https://alberts-transmission-auto-repair.vercel.app/at-logo.webp" />
 
-    <!-- JSON-LD Structured Data -->
+    <link rel="preconnect" href="https://www.facebook.com" />
+    <link rel="preload" as="image" href="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&q=80" />
+
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -45,13 +53,42 @@
               "opens": "08:00",
               "closes": "17:00"
             },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.6",
+              "reviewCount": "26"
+            },
             "sameAs": [
               "https://www.facebook.com/AlbertsTransmissionAutoRepair"
             ]
           },
           {
+            "@type": "WebSite",
+            "name": "Albert's Transmission & Auto Repair",
+            "url": "https://alberts-transmission-auto-repair.vercel.app",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://alberts-transmission-auto-repair.vercel.app/search?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": "Service",
+            "name": "Transmission Repair & Rebuilds",
+            "provider": { "@type": "AutoRepair", "name": "Albert's Transmission & Auto Repair" },
+            "areaServed": "Sulphur Springs, TX",
+            "description": "Complete transmission repair, automatic and manual rebuilds, and diagnostic services."
+          },
+          {
+            "@type": "Service",
+            "name": "Auto Maintenance",
+            "provider": { "@type": "AutoRepair", "name": "Albert's Transmission & Auto Repair" },
+            "areaServed": "Sulphur Springs, TX",
+            "description": "Fluid and filter service, clutch adjustments, same-day diagnostics, and preventive maintenance."
+          },
+          {
             "@type": "SpeakableSpecification",
-            "cssSelector": ["h1", ".intro-text"]
+            "cssSelector": ["h1", "#llm-context"]
           }
         ]
       }

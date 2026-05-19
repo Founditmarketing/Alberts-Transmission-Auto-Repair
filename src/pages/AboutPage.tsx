@@ -60,8 +60,9 @@ export default function AboutPage() {
             <div className="relative overflow-hidden rounded-[2.5rem] border border-slate-800 shadow-2xl">
               <div className="absolute inset-0 bg-brand-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
               <img 
-                src="/at26.jpg" 
+                src="/at26.webp" 
                 alt="Alberts Shop Mechanics" 
+                loading="lazy"
                 className="w-full transition-all duration-1000 scale-105 group-hover:scale-100"
                 referrerPolicy="no-referrer"
               />

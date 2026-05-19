@@ -9,7 +9,7 @@ export default function ServiceCards() {
       <div className="absolute inset-0 z-0 bg-slate-950">
         <div 
           className="absolute inset-0 bg-cover bg-fixed bg-center opacity-40 mix-blend-luminosity" 
-          style={{ backgroundImage: "url('/transmission_bg.png')" }}
+          style={{ backgroundImage: "url('/transmission_bg.webp')" }}
         />
         {/* Soft overlay gradient to ensure text readability while keeping the image highly visible */}
         <div className="absolute inset-0 bg-gradient-to-b from-slate-950/90 via-slate-950/40 to-slate-950/90" />

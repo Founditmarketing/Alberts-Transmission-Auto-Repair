@@ -17,12 +17,12 @@ export default function HomePage() {
       <About />
       <ServiceCards />
       <Gallery showTitle={true} limit={6} images={[
-        "/at12.jpg",
-        "/at13.jpg",
-        "/at15.jpg",
-        "/at21.jpg",
-        "/at22.jpg",
-        "/at10.jpg"
+        "/at12.webp",
+        "/at13.webp",
+        "/at15.webp",
+        "/at21.webp",
+        "/at22.webp",
+        "/at10.webp"
       ]} />
       <Reviews />
       <MaintenanceForm />
