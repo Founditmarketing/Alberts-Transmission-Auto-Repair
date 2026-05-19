@@ -11,8 +11,8 @@ export default function MaintenanceForm() {
           viewport={{ once: true }}
           className="text-center mb-20"
         >
-          <span className="text-brand-primary font-mono text-sm uppercase tracking-widest mb-4 block">Tech-Spec Intake</span>
-          <h2 className="text-4xl md:text-5xl font-display font-bold text-white">Professional Hub. Immediate Dispatch.</h2>
+          <h2 className="text-brand-primary font-mono text-sm uppercase tracking-widest mb-4 block">Tech-Spec Intake</h2>
+          <h3 className="text-4xl md:text-5xl font-display font-bold text-white">Professional Hub. Immediate Dispatch.</h3>
         </motion.div>
 
         <div className="max-w-4xl mx-auto">
@@ -24,7 +24,7 @@ export default function MaintenanceForm() {
           >
             {/* Form Header */}
             <div className="mb-12">
-              <h2 className="text-3xl md:text-4xl font-display font-bold mb-4 text-white">Tech-Spec Maintenance Form</h2>
+              <h3 className="text-3xl md:text-4xl font-display font-bold mb-4 text-white">Tech-Spec Maintenance Form</h3>
               <p className="text-slate-400 font-light">Complete the diagnostic profile below for a precision service quote.</p>
             </div>
 

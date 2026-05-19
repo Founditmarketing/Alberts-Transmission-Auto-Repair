@@ -61,8 +61,8 @@ export default function Footer() {
             © {new Date().getFullYear()} Albert’s Transmission & Auto Repair. All Rights Reserved. Masterfully Engineered.
           </p>
           <div className="flex items-center gap-6">
-             <Link to="/contact" className="text-slate-600 hover:text-slate-400 transition-colors text-xs flex items-center gap-1 cursor-pointer">
-               Review Privacy Shield <ExternalLink size={12} />
+             <Link to="/privacy-policy" className="text-slate-600 hover:text-slate-400 transition-colors text-xs flex items-center gap-1 cursor-pointer">
+               Privacy Policy
              </Link>
              <div className="flex items-center gap-4">
                <div className="flex items-center gap-2">

@@ -28,8 +28,8 @@ export default function Gallery({ images = defaultImages, limit, showTitle = fal
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <span className="text-brand-primary font-mono text-sm uppercase tracking-widest mb-4 block">Work Portfolio</span>
-            <h2 className="text-4xl md:text-5xl font-display font-bold text-white">Precision on Display</h2>
+            <h2 className="text-brand-primary font-mono text-sm uppercase tracking-widest mb-4 block">Work Portfolio</h2>
+            <h3 className="text-4xl md:text-5xl font-display font-bold text-white">Precision on Display</h3>
           </motion.div>
         )}
 

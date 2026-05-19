@@ -27,8 +27,8 @@ export default function Reviews() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <span className="text-brand-primary font-mono text-sm uppercase tracking-widest mb-4 block">Testimonials</span>
-          <h2 className="text-4xl md:text-5xl font-display font-bold text-white">Trusted by the Community</h2>
+          <h2 className="text-brand-primary font-mono text-sm uppercase tracking-widest mb-4 block">Testimonials</h2>
+          <h3 className="text-4xl md:text-5xl font-display font-bold text-white">Trusted by the Community</h3>
         </motion.div>
 
         <div className="w-full flex justify-center py-8">

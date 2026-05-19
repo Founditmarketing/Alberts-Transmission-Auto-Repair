@@ -22,8 +22,8 @@ export default function ServiceCards() {
           viewport={{ once: true }}
           className="text-center mb-20"
         >
-          <span className="text-brand-primary font-mono text-sm uppercase tracking-widest mb-4 block">Core Expertise</span>
-          <h2 className="text-4xl md:text-5xl font-display font-bold text-white">Mastered by Hand. Perfected by Tech.</h2>
+          <h2 className="text-brand-primary font-mono text-sm uppercase tracking-widest mb-4 block">Core Expertise</h2>
+          <h3 className="text-4xl md:text-5xl font-display font-bold text-white">Mastered by Hand. Perfected by Tech.</h3>
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-8 items-stretch">
